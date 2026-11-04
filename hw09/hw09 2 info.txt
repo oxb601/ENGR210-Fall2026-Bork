@@ -1,0 +1,7 @@
+Prompt used was a screenshot of the information given in the canvas assignment.
+
+The code begins with setting parameters, then calculating the geometry with given values, then putting values and temperatures into the gauss-seidel solver. After, it does a convergence check, printing every 100 iterations, after 25000 iterations. It then runs a heat transfer calculation, and verifies the boundary condition with the known bounds of heat from the combustion gasses, which is seen as correct in the plot.
+
+When comparing to previous 1D and 2D plots, a similar Gauss-Seidel plot was created, with a similar gradient of temperature, and dimensions and boundary conditions followed.
+
+For testing of constant temperatures from combustion gasses, the resultant values of max temp, location of max temp, and boundary temperatures are correct, with the dimensions of the channel and max temp being farthest point between channels, closest to combustion.
